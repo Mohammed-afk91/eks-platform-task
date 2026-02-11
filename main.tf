@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket = "mohammed-platform-task-state-12345"  # <--- MUST MATCH THE BUCKET YOU CREATED
     key    = "public-repo-task/terraform.tfstate"
-    region = "us-east-1"
+    region = "eu-west-1"
   }
 }
 
